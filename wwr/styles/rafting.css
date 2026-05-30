@@ -1,8 +1,8 @@
 :root {
     --primary-color: #1e3a5f;
-    --secondary-color: #2a9d8f;
-    --accent1-color: #143f2b;
-    --accent2-color: #e9c46a;
+    --secondary-color: #2a9d5e;
+    --accent1-color: #001302;
+    --accent2-color: #6ae9c9;
 
     --heading-font: Arial, sans-serif;
     --body-font: Georgia, serif;
@@ -40,6 +40,10 @@ article {
     padding: 8px;
 }
 
+nav {
+    background-color: var(--secondary-color);
+}
+
 .hero {
     position: relative;
 }
@@ -62,7 +66,18 @@ article {
     opacity: 0.75;
 }
 
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
