@@ -1,6 +1,6 @@
 :root {
     --primary-color: #1e3a5f;
-    --secondary-color: #2a9d5e;
+    --secondary-color: #1f6f43;
     --accent1-color: #001302;
     --accent2-color: #6ae9c9;
 
@@ -38,10 +38,6 @@ section,
 article {
     margin: 16px;
     padding: 8px;
-}
-
-nav {
-    background-color: var(--secondary-color);
 }
 
 .hero {
@@ -88,19 +84,16 @@ nav {
     text-decoration: none;
 }
 
-/* Header Grid */
-
 header {
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
 }
 
-/* Navigation Flex */
-
 nav {
     display: flex;
     justify-content: space-around;
+    background-color: var(--secondary-color);
 }
 
 nav a {
@@ -108,8 +101,6 @@ nav a {
     color: white;
     padding: 10px;
 }
-
-/* History Grid */
 
 .history {
     display: grid;
@@ -125,8 +116,6 @@ nav a {
 .history img {
     width: 100%;
 }
-
-/* Adventure Flex */
 
 .adventure {
     display: flex;
@@ -147,8 +136,6 @@ nav a {
 .adventure figure {
     text-align: center;
 }
-
-/* Footer */
 
 footer {
     display: flex;
